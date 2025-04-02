@@ -5,7 +5,7 @@ import { IoMdAdd } from "react-icons/io";
 
 const AdminSidebar = () => {
   return (
-    <aside className="flex bg-gray-700 w-[18%] h-[calc(100vh-70px)] justify-center px-4 py-8 shadow-lg shrink-0">
+    <aside className="flex bg-gray-700 w-[18%] h-[calc(100vh-70px)] sticky top-[70px] justify-center px-4 py-8 shadow-lg shrink-0">
       <ul className="w-full mt-10 flex flex-col gap-6 justify-start items-start font-semibold">
         <li className="w-full">
           <NavLink
